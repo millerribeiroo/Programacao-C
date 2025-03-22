@@ -8,10 +8,10 @@
         //conversão implícita é quando o compilador faz a conversão automaticamente
         //conversão explícita é quando o programador faz a conversão
         float c = a / b; //conversão implícita
-        printf("c = %f\n", c);
+        printf("c = %.2f\n", c);
 
         float d = (float) a / b; //conversão explícita
-        printf("d = %f\n", d);
+        printf("d = %.2f\n", d);
 
         return 0;
     }
